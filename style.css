@@ -1,0 +1,43 @@
+
+.jop{
+    text-align: center;
+    color: var(--bg-color);
+    font-size: 20px; }
+.toy{
+background: var(--main-bg-color);
+    position: relative;
+
+border-radius: 5px;
+    margin: 130px auto 10px auto;
+
+}
+
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+      background-attachment: fixed;
+ background-image: url(map.jpeg);
+
+}
+
+@media ( max-width: 699px) {
+
+    .toy {
+        width: 100%;
+padding: 2px;
+    }
+}
+@media (min-width: 700px) {
+
+    .toy {
+        width: 95%;
+        padding: 10px;
+    }
+}
+@media (min-width: 960px) {
+
+    .toy {
+        width: 90%;
+        padding: 10px;
+    }
+}

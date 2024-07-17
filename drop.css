@@ -1,0 +1,48 @@
+
+
+.dropdown {
+    position: relative;
+margin-left: 10px;
+    display: inline-block;
+background-color: transparent;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 200px;
+    z-index: 1;
+    animation-name: example;
+    animation-duration: 1s;
+}
+.dropdown-content a {
+    color: black;
+    padding:  15px;
+    margin-top: 1px;
+    text-decoration: none;
+    display: block;
+    border-style: double;
+    border-color: var(--borc);
+    border-radius: 5px;
+    background-color: white;
+}
+
+.dropdown-content a:hover {background-color: #ddd;
+padding: 20px}
+
+@keyframes example {
+    0% {
+        opacity: 0;
+        transform: rotateX(-90deg);
+    }
+    50% {
+        transform: rotateX(-20deg);
+    }
+    100% {
+        opacity: 1;
+        transform: rotateX(0deg);
+    }
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+

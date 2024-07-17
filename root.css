@@ -1,0 +1,10 @@
+
+:root{
+    --bg-color: white;
+    --borstyle: double;
+    --borc: gray;
+    --borr: 5px;
+    --borw: 7px;
+    --main-bg-color: rgb(255, 255, 255, 0.9);
+
+}
